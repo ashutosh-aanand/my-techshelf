@@ -21,6 +21,13 @@ export default defineConfig({
 						}
 					]
 				},
+				{
+					label: 'Graphs',
+					items: [
+						{ label: 'Topics', slug: 'graphs/topics'},
+						{ label: 'Representation', slug: 'graphs/representation'},
+					]
+				}
 			],
 			customCss: ['./src/tailwind.css'],
 		}),
