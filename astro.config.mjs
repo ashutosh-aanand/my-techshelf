@@ -7,21 +7,19 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
+			title: 'Techshelf',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ashutosh-aanand/my-techshelf',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Topics',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+						{
+							label: 'Topics',
+							slug: 'topics/topics'
+						}
+					]
 				},
 			],
 			customCss: ['./src/tailwind.css'],
