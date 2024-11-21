@@ -12,18 +12,22 @@ export default defineConfig({
 				github: 'https://github.com/ashutosh-aanand/my-techshelf',
 			},
 			sidebar: [
-				{
-					label: 'Topics',
-					items: [
-						{
-							label: 'Topics',
-							slug: 'topics/topics'
-						}
-					]
-				},
+				// {
+				// 	label: 'Topics',
+				// 	items: [
+				// 		{
+				// 			label: 'Topics',
+				// 			slug: 'topics/topics'
+				// 		}
+				// 	]
+				// },
 				{
 					label: 'Graphs',
 					autogenerate: { directory: 'graphs'}
+				},
+				{
+					label: 'Backend notes',
+					autogenerate: { directory: 'backend'}
 				}
 			],
 			customCss: ['./src/tailwind.css'],
