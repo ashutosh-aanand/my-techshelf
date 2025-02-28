@@ -27,7 +27,13 @@ export default defineConfig({
 				},
 				{
 					label: 'Backend notes',
-					autogenerate: { directory: 'backend'}
+					autogenerate: { directory: 'backend'},
+					collapsed: true
+				},
+				{
+					label: 'Web Development',
+					autogenerate: { directory: 'web development'},
+					collapsed: true
 				}
 			],
 			customCss: ['./src/tailwind.css'],

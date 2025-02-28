@@ -30,7 +30,7 @@ Spring Security is designed to secure both web applications and microservices. I
 
 ## Getting Started with Spring Security
 
-To get started, you can simply add Spring Security to your Spring Boot application by including the following dependency in your `pom.xml` (for Maven projects):
+To get started, you can simply add Spring Security to your Spring Boot application by including the following dependency in your `build.gradle` (for Gradle projects):
 
 ```gradle
 implementation 'org.springframework.boot:spring-boot-starter-security'`
